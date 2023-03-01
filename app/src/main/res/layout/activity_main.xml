@@ -26,8 +26,18 @@
         android:layout_gravity="center_horizontal"
         android:gravity="center_horizontal"
         android:textSize="17sp"
-        android:layout_marginBottom="32dp"
         />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="yyyyyyyyyyyy"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp"/>
 
     <Button
         android:id="@+id/btn_logout"
