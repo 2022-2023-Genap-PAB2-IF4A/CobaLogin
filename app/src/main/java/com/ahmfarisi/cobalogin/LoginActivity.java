@@ -42,6 +42,12 @@ public class LoginActivity extends AppCompatActivity {
                         startActivity(new Intent(LoginActivity.this, MainActivity.class));
                         finish();
                     }
+                    else if(username.equals("rickykaka") && password.equals("terserah")){
+                        KL.setPref(LoginActivity.this, MainActivity.keySPusername, username);
+                        KL.setPref(LoginActivity.this, MainActivity.keySPname, "Ricardo Kaka");
+                        startActivity(new Intent(LoginActivity.this, MainActivity.class));
+                        finish();
+                    }
                     else{
                         Toast.makeText(LoginActivity.this, "Username atau Password Belum Tepat", Toast.LENGTH_SHORT).show();
                     }
